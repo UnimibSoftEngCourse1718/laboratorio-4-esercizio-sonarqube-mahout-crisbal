@@ -28,6 +28,7 @@ import java.util.Random;
 
 /**
  * Builds a tree using bagging
+ * @deprecated
  */
 @Deprecated
 public class Bagging {
