@@ -374,7 +374,6 @@ public class VectorBenchmarks {
       VectorBenchmarks mark = new VectorBenchmarks(cardinality, numNonZero, numVectors, numClusters, numOps);
       runBenchmark(mark);
 
-      // log.info("\n{}", mark);
       log.info("\n{}", mark.asCsvString());
     } catch (OptionException e) {
       CommandLineUtil.printHelp(group);
