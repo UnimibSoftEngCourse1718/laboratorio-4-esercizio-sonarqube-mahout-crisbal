@@ -87,7 +87,7 @@ public class VectorBenchmarks {
   final int numNonZeros;
   final int numVectors;
   final int numClusters;
-  final int loop = Integer.MAX_VALUE;
+  static final int loop = Integer.MAX_VALUE;
   final int opsPerUnit;
   final long maxTimeUsec;
   final long leadTimeUsec;
